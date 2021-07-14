@@ -1,22 +1,22 @@
 --- 
 data: 
   md_dir: 
-    - C:/Users/Abbas/Desktop/data_mm_nn/dia/train/md_dir
+    - C:/Users/computer_name/Desktop/data_mm_nn/dia/train/md_dir
   symbols: 
     - HSBA.L
   tas_dir: 
-    - C:/Users/Abbas/Desktop/data_mm_nn/dia/train/tas_dir
+    - C:/Users/computer_name/Desktop/data_mm_nn/dia/train/tas_dir
 debug: 
   inspect_books: false
   random_seed: 100
 evaluation: 
   md_dir: 
-    - C:/Users/Abbas/Desktop/data_mm_nn/amzn/test/md_dir
+    - C:/Users/computer_name/Desktop/data_mm_nn/amzn/test/md_dir
   symbols: 
     - HSBA.L
   n_samples: 20
   tas_dir: 
-    - C:/Users/Abbas/Desktop/data_mm_nn/amzn/test/tas_dir
+    - C:/Users/computer_name/Desktop/data_mm_nn/amzn/test/tas_dir
   random_agent: false
   use_train_sample: false
 learning: 
@@ -53,7 +53,7 @@ market:
     lookback: 1
     type: target_price
   transaction_fee: 0.0
-output_dir: "C://Users//Abbas//Desktop//"
+output_dir: "C://Users//computer_name//Desktop//"
 policy: 
   eps_T: 800
   eps_floor: 0.0001
